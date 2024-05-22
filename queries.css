@@ -1,0 +1,131 @@
+@media (max-width: 375px){
+    
+    .form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10rem;
+
+      }
+
+
+    .input{
+        height: 3rem;
+        width: 25rem; 
+        font-size: 1rem;
+        padding: 1rem;
+        
+      
+      }
+      
+      
+      .search{
+        padding: 1rem  2rem;
+        font-size: 1rem;
+        margin-left: -22%;
+        margin-bottom: -1px;
+
+      }
+      
+      
+      .search-other{
+        border: none;
+        background-color: #87ceeb;
+        color: #FFF;
+        padding: 1rem;
+        font-size: 1.5rem;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s;
+        position: fixed;
+        top: 5%;
+        left: 90%;
+        transform: translate(-50%, -50%);
+        text-decoration: none;
+      }
+      
+      .icon{
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+
+
+      .container {
+        /* display: flex;
+        align-items: center;
+        justify-content: center;
+        */
+        margin: 5rem;
+      
+      
+      }
+      
+
+      .countries {
+        display: grid;
+        grid-template-columns: 1fr ;
+        justify-content: start;
+        align-items: start;
+        gap: 30px;
+        margin-left: -50%;
+        margin-right: 0%;
+      
+      
+      
+      
+      
+        font-size: 1rem;
+        opacity: 0;
+        transition: opacity 1s;
+      }
+      
+      .news {
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1);
+        font-size: 1rem;
+        width: 90vw;
+        height: auto;
+        border-radius: 0.7rem;
+        /* overflow: hidden; */
+      }
+      
+      
+      .article__img {
+        width: 33.5rem;
+        height: 20rem;
+        object-fit: cover;
+        background-color: #eee;
+        border-top-left-radius: 0.7rem;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 0.7rem;
+      }
+      
+      .article__data {
+        padding: 2.5rem 3.75rem 3rem 3.75rem;
+      }
+      
+      .article__title {
+        font-size: 1.6rem;
+        margin-bottom: 2rem;
+      }
+      
+      .article__region {
+        font-size: 1rem;
+        margin-bottom: 2.5rem;
+        text-transform: uppercase;
+        color: #888;
+      }
+      
+      .article__row:not(:last-child) {
+        margin-bottom: 1rem;
+      }
+      
+      .article__row span {
+        display: inline-block;
+        margin-right: 2rem;
+        font-size: 0.9rem;
+      }
+      
+}
